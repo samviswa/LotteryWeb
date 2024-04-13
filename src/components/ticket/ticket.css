@@ -1,0 +1,141 @@
+.archivo-black-regular {
+  font-family: "Archivo Black";
+  font-weight: 500;
+  font-style: normal;
+  color: beige;
+}
+
+
+  .center {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    
+  }
+
+  
+
+  .ticket{
+    width: 800px;
+    height: 350px;
+    background: linear-gradient(to right,blueviolet,blue);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left{
+    width: 650px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right{
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7)45%,
+    rgba(255,255,255,0)0%);
+    background-position: left;
+    background-size: 2px 25px;
+    background-repeat: repeat-y;
+  }
+ .lcircle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+
+ }
+
+ .lcircles{
+  position: absolute;
+  width: fit-content;
+  height: 380px;
+  top:50%;
+  transform: translate(0,-50%);
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+ }
+
+ .rcircle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+
+ }
+
+ .rcircles{
+  position: absolute;
+  width: fit-content;
+  height: 380px;
+  top:50%;
+  transform: translate(0,-50%);
+  left:780px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+ }
+ .ccircle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+
+ }
+ .ccircles{
+  position: absolute;
+  width: fit-content;
+  height: 380px;
+  top:50%;
+  transform: translate(0,-50%);
+  left:565px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+ }
+  
+ .cut{
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+ }
+
+ .lcuts{
+    position: absolute;
+    left: -9px;
+    top: 30px;
+    width: fit-content;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+ }
+ .rcuts{
+  position: absolute;
+  left: 793px;
+  top: 30px;
+  width: fit-content;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+
+ 
